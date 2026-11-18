@@ -1,0 +1,10 @@
+# Herwig 7 pp -> ttbar, 13 TeV, LO MEHeavyQuark, default tune, inclusive top decays
+read snippets/PPCollider.in
+cd /Herwig/Generators
+set EventGenerator:EventHandler:LuminosityFunction:Energy 13000.0
+cd /Herwig/MatrixElements/
+insert SubProcess:MatrixElements[0] MEHeavyQuark
+cd /Herwig/Generators
+read snippets/HepMC.in
+set /Herwig/Analysis/HepMC:PrintEvent 100000000
+saverun LHC EventGenerator

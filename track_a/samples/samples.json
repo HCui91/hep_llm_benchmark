@@ -1,0 +1,42 @@
+[
+ {
+  "name": "herwig7_ttbar",
+  "generator": "Herwig 7 (LCG_110a), LO MEHeavyQuark, default tune",
+  "files": [
+   "$HEPBENCH_DATA/samples/herwig7_ttbar/herwig7_ttbar_01.hepmc.gz",
+   "$HEPBENCH_DATA/samples/herwig7_ttbar/herwig7_ttbar_02.hepmc.gz",
+   "$HEPBENCH_DATA/samples/herwig7_ttbar/herwig7_ttbar_03.hepmc.gz",
+   "$HEPBENCH_DATA/samples/herwig7_ttbar/herwig7_ttbar_04.hepmc.gz",
+   "$HEPBENCH_DATA/samples/herwig7_ttbar/herwig7_ttbar_05.hepmc.gz",
+   "$HEPBENCH_DATA/samples/herwig7_ttbar/herwig7_ttbar_06.hepmc.gz",
+   "$HEPBENCH_DATA/samples/herwig7_ttbar/herwig7_ttbar_07.hepmc.gz",
+   "$HEPBENCH_DATA/samples/herwig7_ttbar/herwig7_ttbar_08.hepmc.gz",
+   "$HEPBENCH_DATA/samples/herwig7_ttbar/herwig7_ttbar_09.hepmc.gz",
+   "$HEPBENCH_DATA/samples/herwig7_ttbar/herwig7_ttbar_10.hepmc.gz"
+  ],
+  "n_events_per_file": 5000,
+  "cross_section_pb": 436.0,
+  "stream_cmd": "file",
+  "n_weights": 1
+ },
+ {
+  "name": "pythia8_ttbar_radup",
+  "generator": "Pythia 8.317 (LCG_110a), gg/qqbar->ttbar, alphaS ISR/FSR 0.140",
+  "files": [
+   "$HEPBENCH_DATA/samples/pythia8_ttbar_radup/pythia8_ttbar_radup_01.hepmc.gz",
+   "$HEPBENCH_DATA/samples/pythia8_ttbar_radup/pythia8_ttbar_radup_02.hepmc.gz",
+   "$HEPBENCH_DATA/samples/pythia8_ttbar_radup/pythia8_ttbar_radup_03.hepmc.gz",
+   "$HEPBENCH_DATA/samples/pythia8_ttbar_radup/pythia8_ttbar_radup_04.hepmc.gz",
+   "$HEPBENCH_DATA/samples/pythia8_ttbar_radup/pythia8_ttbar_radup_05.hepmc.gz",
+   "$HEPBENCH_DATA/samples/pythia8_ttbar_radup/pythia8_ttbar_radup_06.hepmc.gz",
+   "$HEPBENCH_DATA/samples/pythia8_ttbar_radup/pythia8_ttbar_radup_07.hepmc.gz",
+   "$HEPBENCH_DATA/samples/pythia8_ttbar_radup/pythia8_ttbar_radup_08.hepmc.gz",
+   "$HEPBENCH_DATA/samples/pythia8_ttbar_radup/pythia8_ttbar_radup_09.hepmc.gz",
+   "$HEPBENCH_DATA/samples/pythia8_ttbar_radup/pythia8_ttbar_radup_10.hepmc.gz"
+  ],
+  "n_events_per_file": 5000,
+  "cross_section_pb": null,
+  "stream_cmd": "file",
+  "n_weights": 1
+ }
+]
